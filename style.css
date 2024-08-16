@@ -409,28 +409,37 @@ section .header {
   object-fit: cover;
   /* Ensures the image fits the circle */
 }
+
 .contact {
   display: flex;
   align-items: flex-start;
-  justify-content: center; /* Center align the container's content horizontally */
+  justify-content: center;
+  /* Center align the container's content horizontally */
   margin: 20px;
   padding: 20px;
   gap: 20px;
   position: relative;
-  background-image: url('Contact.jpg'); /* Set image as background */
+  background-image: url('Contact.jpg');
+  /* Set image as background */
   border-radius: 25px;
-  background-position: left top; /* Position background image to the left top */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: auto 100%; /* Adjust the image size to fit the height of the container */
+  background-position: left top;
+  /* Position background image to the left top */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: auto 100%;
+  /* Adjust the image size to fit the height of the container */
 }
 
 .contact-info {
   flex: 1;
-  max-width: 600px; /* Optional: Set a max-width to prevent stretching */
-  margin-left: 320px; /* Adjust space to fit the image width */
+  max-width: 600px;
+  /* Optional: Set a max-width to prevent stretching */
+  margin-left: 320px;
+  /* Adjust space to fit the image width */
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align children to the start (left) */
+  align-items: flex-start;
+  /* Align children to the start (left) */
 }
 
 .contact-info button {
@@ -439,7 +448,8 @@ section .header {
   color: #ffffff;
   border: none;
   border-radius: 55px;
-  font-size: 34px; /* Corrected font-size */
+  font-size: 34px;
+  /* Corrected font-size */
   font-weight: bolder;
   cursor: pointer;
   padding: 15px 40px;
@@ -451,7 +461,8 @@ section .header {
 .contact-details {
   margin: 20px;
   width: 550px;
-  font-size: 34px; /* Corrected font-size */
+  font-size: 34px;
+  /* Corrected font-size */
   background-color: #2775B8;
   border-radius: 15px;
   color: #ffffff;
@@ -528,4 +539,3 @@ section .header {
   margin: 5px 0;
   font-size: 16px;
 }
-
