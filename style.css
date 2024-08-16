@@ -539,3 +539,95 @@ section .header {
   margin: 5px 0;
   font-size: 16px;
 }
+
+/* Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+  }
+
+  .navbar ul li {
+    margin-left: 0;
+    padding: 10px 0;
+  }
+
+  .navbar button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+
+/* Header */
+
+@media (max-width: 768px) {
+  header {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  header .devimage img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Card */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card span {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Testimonials & Footer */
+
+@media (max-width: 768px) {
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+}
+
+
+/* General Layout */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
